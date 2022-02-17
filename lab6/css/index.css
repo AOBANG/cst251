@@ -13,11 +13,18 @@ div#content {
 h1, h2, h3 {
     font-family: "Courier New", monospace;
 }
-img {
+img.right {
     float: right;
     width: 400px;
     height: auto;
 }
+
+img.left{
+  float: none;
+  width: auto;
+  height: auto;
+}
+
 a {
     text-decoration: none;
     color: maroon;

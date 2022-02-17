@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 6 - More complicated HTML</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
+	<div id = "content">
+		<div id = "subject">
+			<h1>Lab 6: More complicated HTML</h1>
+		</div>
 
+		<div id = "images">
+			<img src="img/1.jpg" alt="task2" style="width:400px;height:300px;" class="right"/>
+		</div>
+
+		<div id = "difficulties">
+			<h2>Difficulties</h2>
+			<p>There are so many tags that I learned this time, so it was hard to use.<br>
+				 But I'm getting used to using them.</p>
+		</div>
+
+		<div id = "results">
+			<h2>Results<h2>
+			<img src="img/result.png" alt="task1" style="width:400px;height:300px;" class="left"/>
+		</div>
+
+		<div id = "output">
+			<form action="http://google.com/search" method="GET" target="new">
+				<label>Search: <input name="q" type="input"></label><br>
+				<label>Password: <input name="pw" type="password"> </label><br>
+				<label>Biography: <textarea name="essay"> </textarea </label><br>
+				<label>Agree: <input name="agree" type="checkbox" value="yes"></label><br>
+				<label>Gender: <input name="gender" type="radio" value="cat">"Cat"</label>
+				<input name="gender" type="radio" value="dog">"Dog"</label><br>
+				<label>Fav Show:
+					<select class="" name="show">
+						<option disabled selected>Please select</option>
+						<option value="seinfeld">Seinfeld</option>
+						<option value="breaking-bad">Breaking Bad</option>
+						<option value="expanse">The Expense</option>
+					</select>
+				</label><br>
+				<input type="submit" value="submit">
+	  	</form>
+		</div>
+
+		<div id = "links">
+			<a href = "https://aobang.github.io/cst251/">Home</a>
+		</div>
+
+	</div>
 </body>
 </html>
