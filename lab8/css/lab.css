@@ -1,0 +1,56 @@
+body {
+  background-color: #e3ccff;
+  color: white;
+  border: solid 3px #c180ff;
+  font-size: 100%;
+  padding: 25px;
+  margin: 30px;
+  text-align: center;
+}
+
+h2{
+  padding-top: 15px;
+  font-family: sans-serif;
+  font-size: 120%;
+}
+
+img{
+  width:500px;
+  height:400px;
+}
+
+div#subject{
+  font-style: italic;
+}
+
+div#image{
+  float: right;
+  padding-right: 50px;
+  width: auto;
+  height: auto;
+  font-size: 120%;
+}
+
+div#challenge, div#problems{
+  background-color: #d1cdff;
+  width: 50%;
+  height: 130px;
+}
+
+div#results{
+  flaot: left;
+  background-color: #d1cdff;
+  width: 50%;
+  height: 500px;
+  font-size: 120%;
+}
+
+div .written{
+  font-size: 110%;
+}
+
+#image:hover img{
+  width: 700px;
+  height: 600px;
+  max-width: 800px;
+}
