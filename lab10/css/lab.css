@@ -1,0 +1,78 @@
+body{
+  background-color: #9696FF;
+  color: black;
+  /*border: solid 3px #c180ff;
+  padding: 25px;
+  margin: 30px;*/
+  font-size: 100%;
+  text-align: center;
+}
+
+h2{
+  padding-top: 15px;
+  font-family: 'Sansita Swashed';
+  font-size: 120%;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+  color: #473485;
+}
+
+img{
+  width:500px;
+  height:400px;
+}
+
+div#content{
+  margin: 50px;
+  padding: 20px;
+  border: dashed 3px #c180ff;
+  background-color: #d1cdff;
+}
+
+div#subject{
+  font-style: italic;
+  font-family: 'Tangerine';
+  font-size: 35px;
+}
+
+div#image{
+  float: right;
+  padding: 10px 30px 30px;
+  width: auto;
+  height: auto;
+  font-size: 120%;
+  background-color: #adcfff;
+}
+
+div#challenge, div#problems{
+  background-color: #e3ccff;
+  width: 50%;
+  height: 130px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+div#results{
+  flaot: left;
+  background-color: #e3ccff;
+  width: 50%;
+  height: 500px;
+  font-size: 120%;
+}
+
+div .written{
+  color: white;
+  font-size: 100px;
+  font-family: Caveat;
+  font-size: 25px;
+  margin: 0px 5px 5px 5px;
+  padding: 0px 5px 5px 5px;
+}
+
+/* #image:hover img{
+  width: 700px;
+  height: 600px;
+  max-width: 800px;
+} */
