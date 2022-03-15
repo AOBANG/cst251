@@ -1,11 +1,10 @@
 body{
   background-color: #9696FF;
   color: black;
-  /*border: solid 3px #c180ff;
-  padding: 25px;
-  margin: 30px;*/
+  padding: 30px;
   font-size: 100%;
   text-align: center;
+  height: auto;
 }
 
 h2{
@@ -17,7 +16,7 @@ h2{
   color: #473485;
 }
 
-img{
+#results img{
   width:500px;
   height:400px;
 }
@@ -36,15 +35,6 @@ div#subject{
   font-family: 'Tangerine';
   font-size: 35px;
 }
-
-/* div#image{
-  float: right;
-  padding: 10px 30px 30px;
-  width: auto;
-  height: auto;
-  font-size: 120%;
-  background-color: #adcfff;
-} */
 
 div#challenge, div#problems{
   background-color: #e3ccff;
@@ -66,7 +56,6 @@ div#results{
 
 div .written{
   color: white;
-  font-size: 100px;
   font-family: 'Caveat';
   font-size: 25px;
   margin: 0px 5px 5px 5px;
@@ -80,7 +69,6 @@ nav{
   border: double 10px #1da3c3;
   text-align: left;
   font-family: 'Sansita Swashed';
-  padding: 5px 5px 5px;
 }
 
 #sidebar{
@@ -94,6 +82,64 @@ nav{
   padding: 0px 5px 20px;
   font-family: 'Caveat';
   font-size: 25px;
+}
+
+div#floated{
+  width: 30%;
+  background-color: #e3ccff;
+  float: left;
+  margin: 20px 5px 5px 5px;
+  padding: 0px 5px 5px 5px;
+  height: 400px;
+}
+
+div#center-horz{
+  width: 30%;
+  background-color: #e3ccff;
+  float: left;
+  clear: left;
+  text-align: center;
+  margin: 20px 5px 5px 5px;
+  padding: 0px 5px 5px 5px;
+  height: 400px;
+}
+
+div#center-img{
+  width: 30%;
+  background-color: #e3ccff;
+  float: right;
+  clear: right;
+  margin: -410px 5px 5px 5px;
+  padding: 0px 5px 5px 5px;
+  height: 400px;
+  position: relative;
+}
+#center-img img{
+  width:150px;
+  height:200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#center-both{
+  width: 30%;
+  background-color: #e3ccff;
+  float: right;
+  clear: right;
+  margin: 20px 5px 5px 5px;
+  padding: 0px 5px 5px 5px;
+  height: 400px;
+  position: relative;
+}
+
+#center-both img{
+  width:150px;
+  height:200px;
+  position: absolute;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* #image:hover img{
