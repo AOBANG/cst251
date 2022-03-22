@@ -1,0 +1,41 @@
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center
+}
+
+nav{
+  background: rgba(20,24,28,.95);
+  height: 50px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  display: block;
+}
+
+#name{
+  float: left;
+  color: white;
+}
+
+#date{
+  float: right;
+  color: gray;
+}
+
+.number{
+  background: url("../img/harry potter.png") no-repeat center / cover;
+  font-family: "Rubik";
+  font-size: 300px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.written{
+  font-size: 30px;
+}

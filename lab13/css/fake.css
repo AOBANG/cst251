@@ -1,0 +1,18 @@
+@font-face{
+	src: url("../fonts/orkney-bold.otf");
+    font-family: "orkney";
+}
+
+body{
+  height: 900px;
+  background: radial-gradient(farthest-corner at 97% 120%, rgba(255, 247, 155, 1.00) 50%, rgba(112, 210, 246, 1.00) 50%);
+}
+
+h1{
+  color: white;
+  font-family: "orkney";
+  font-size: 900%;
+  text-transform: lowercase;
+  text-align: center;
+  padding-top: 20%;
+}
