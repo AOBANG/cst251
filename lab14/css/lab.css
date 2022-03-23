@@ -17,8 +17,9 @@ h2{
 }
 
 #results img{
-  width:500px;
-  height:400px;
+  width:700px;
+  height:500px;
+  padding-top: 20px;
 }
 
 #content{
@@ -27,7 +28,7 @@ h2{
   padding: 10px;
   border: dashed 3px #c180ff;
   background-color: #d1cdff;
-  width: 60%;
+  width: 90%;
 }
 
 div#subject{
@@ -50,8 +51,10 @@ div#results{
   float: left;
   background-color: #e3ccff;
   width: 100%;
-  height: 500px;
+  height: 650px;
   font-size: 120%;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 div .written{
@@ -71,79 +74,10 @@ nav{
   font-family: 'Sansita Swashed';
 }
 
-#sidebar{
-  display: inline-block;
-  float: right;
-  width: 30%;
-  min-width: 300px;
-  background-color: #c7ffff;
-  border: double 10px #1da3c3;
-  margin-top: 50px;
-  padding: 0px 5px 20px;
-  font-family: 'Caveat';
-  font-size: 25px;
+iframe#fake{
+  margin-top: 20px;
+  width: 800px;
+  height: 500px;
+  resize: both;
+  overflow: hidden;
 }
-
-div#floated{
-  width: 30%;
-  background-color: #e3ccff;
-  float: left;
-  margin: 20px 5px 5px 5px;
-  padding: 0px 5px 5px 5px;
-  height: 400px;
-}
-
-div#center-horz{
-  width: 30%;
-  background-color: #e3ccff;
-  float: left;
-  clear: left;
-  text-align: center;
-  margin: 20px 5px 5px 5px;
-  padding: 0px 5px 5px 5px;
-  height: 400px;
-}
-
-div#center-img{
-  width: 30%;
-  background-color: #e3ccff;
-  float: right;
-  clear: right;
-  margin: -410px 5px 5px 5px;
-  padding: 0px 5px 5px 5px;
-  height: 400px;
-  position: relative;
-}
-#center-img img{
-  width:150px;
-  height:200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div#center-both{
-  width: 30%;
-  background-color: #e3ccff;
-  float: right;
-  clear: right;
-  margin: 20px 5px 5px 5px;
-  padding: 0px 5px 5px 5px;
-  height: 400px;
-  position: relative;
-}
-
-#center-both img{
-  width:150px;
-  height:200px;
-  position: absolute;
-  margin: 0;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* #image:hover img{
-  width: 700px;
-  height: 600px;
-  max-width: 800px;
-} */

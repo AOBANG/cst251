@@ -1,6 +1,20 @@
+@font-face{
+	src: url("../fonts/Aileron-Bold.otf");
+  font-family: "Aileron";
+}
+@font-face{
+	src: url("../fonts/cabin-regular.ttf");
+  font-family: "cabin";
+}
+
 body{
   width: 100%;
   height: 100%;
+  background: #1b2127;
+  color: #9ab;
+  height: 100%;
+  width: 100%;
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -18,24 +32,111 @@ nav{
   display: block;
 }
 
-#name{
+#navBar img{
+  width: 50px;
+  height: 20px;
   float: left;
+  clear: left;
+  margin: 5px 5px 0px 7px;
+  padding: 5px 5px 0px 7px;
+}
+
+h1{
+  margin-top: 100px;
+  font-family: "Graphik-Light-Web", "Graphik Light Web", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.3;
+  margin-bottom: 0px;
   color: white;
 }
 
-#date{
-  float: right;
-  color: gray;
+#name{
+  font-family: "Aileron";
+  font-size: 20px;
+  float: left;
+  color: white;
+  margin-top: 4px;
+  padding-top: 4px;
 }
 
-.number{
+#date{
+  font-family: "cabin";
+  color: #9ab;
+  font-size: 20px;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 4px;
+  padding-top: 4px;
+}
+
+.number1{
   background: url("../img/harry potter.png") no-repeat center / cover;
   font-family: "Rubik";
-  font-size: 300px;
+  font-size: 400px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.number2{
+  background: url("../img/before sunrise.png") no-repeat center / cover;
+  font-family: "Rubik";
+  font-size: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.number3{
+  background: url("../img/hunger game.png") no-repeat center / cover;
+  font-family: "Rubik";
+  font-size: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.number4{
+  background: url("../img/high school musical.png") no-repeat center / cover;
+  font-family: "Rubik";
+  font-size: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#text{
+  font-size: 24px;
+  border: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
 }
 
 .written{
-  font-size: 30px;
+  max-width: 720px;
+  margin: 20px auto;
+  text-align: center;
+  margin-top: 0;
+}
+
+.blog{
+  color: #def;
+  width: 50px;
+}
+
+#icon img{
+  width: 35px;
+  height: 35px;
+  margin: 10px 10px 5px 5px;
+  padding: 10px 10px 5px 5px;
 }
