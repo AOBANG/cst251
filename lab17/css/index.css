@@ -1,0 +1,45 @@
+#links{
+  border: solid 3px black;
+}
+
+#identify{
+  border: solid 3px black;
+}
+
+#content{
+  border: solid 3px black;
+}
+
+#challenge{
+  border: solid 3px black;
+}
+
+#problems{
+  border: solid 3px black;
+}
+
+#results{
+  border: solid 3px black;
+}
+
+#results img{
+  width: 300px;
+  height: 300px;
+}
+
+#sidebar{
+  border: solid 3px black;
+}
+
+#sidebarImg{
+  border: solid 3px black;
+}
+
+#sidebarImg img{
+  width: 300px;
+  height: 400px;
+}
+
+#contact{
+  border: solid 3px black;
+}

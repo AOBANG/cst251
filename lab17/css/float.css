@@ -1,0 +1,132 @@
+body{
+  background-image: linear-gradient(to top, #ffbf75, #f8cbc7, #9696FF);
+  background-position: left top;
+  background-repeat: repeat;
+  color: black;
+  padding: 0;
+  margin: 30px;
+  font-size: 100%;
+  text-align: center;
+}
+
+h1{
+  font-style: italic;
+  font-family: 'Tangerine';
+  font-size: 50px;
+  text-shadow: 3px 3px 3px gray;
+}
+
+h2{
+  padding-top: 15px;
+  font-family: 'Sansita Swashed';
+  font-size: 120%;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+  color: #473485;
+}
+
+nav{
+  top: 0;
+  background-color: rgba(199, 255, 255, 0.5);
+  border: double 10px #1da3c3;
+  border-radius: 0 0 25px 0;
+  text-align: left;
+  font-family: 'Sansita Swashed';
+  margin: 0 0 10px 0;
+}
+
+#identify{
+  border: dashed 3px #c180ff;
+  background-color: rgba(209, 205, 255, 0.7);
+}
+
+#content{
+  float: left;
+  margin: 50px;
+  padding: 10px;
+  border: dashed 3px #c180ff;
+  background-color: rgba(209, 205, 255, 0.7);
+  width: 60%;
+}
+
+section#challenge, section#problems{
+  background-color: #e3ccff;
+  background-color: rgba(227, 204, 255, 0.6);
+  width: 100%;
+  height: 130px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+  box-shadow: 2px 2px 3px gray;
+  transition: background-color 2s;
+  border: solid 3px #c180ff;
+}
+
+section#challenge:hover, section#problems:hover{
+  background-color: #5463ff;
+}
+
+section#results{
+  float: left;
+  background-color: #e3ccff;
+  width: 100%;
+  height: 500px;
+  font-size: 120%;
+  box-shadow: 2px 2px 3px grey;
+  animation-duration: 5s;
+  border: solid 3px #c180ff;
+}
+
+#results img{
+  width:500px;
+  height:400px;
+}
+
+section .written{
+  color: white;
+  font-family: 'Caveat';
+  font-size: 25px;
+  margin: 0px 5px 5px 5px;
+  padding: 0px 5px 5px 5px;
+  /*column-count: 2;*/
+}
+
+#sidebar{
+  display: inline-block;
+  float: right;
+  width: 30%;
+  min-width: 300px;
+  background-color: #c7ffff;
+  border: double 10px #1da3c3;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 0px 5px 20px;
+  font-family: 'Caveat';
+  font-size: 25px;
+}
+
+#sidebarImg img{
+  display: inline-block;
+  float: right;
+  width: 450px;
+  height: 550px;
+  object-fit: cover;
+  margin-top: 50px;
+  padding: 0px 5px 20px;
+}
+
+#contact{
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform : translateY(620%);
+  border: double 10px #1da3c3;
+}
+
+#contact img{
+  width: 50px;
+  height: 50px;
+}
