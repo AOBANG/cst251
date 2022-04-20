@@ -1,0 +1,38 @@
+.container{
+  text-align: center;
+}
+
+#links{
+  border: solid 3px black;
+}
+
+#subject{
+  border: solid 3px black;
+  margin-top: 70px;
+  padding-top: auto;
+}
+
+#content{
+  border: solid 3px black;
+}
+
+#challenge{
+  border: solid 3px black;
+}
+
+#problems{
+  border: solid 3px black;
+}
+
+#results{
+  border: solid 3px black;
+}
+
+#results img{
+  width: 300px;
+  height: 300px;
+}
+
+#sidebar{
+  border: solid 3px black;
+}
