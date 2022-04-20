@@ -18,10 +18,14 @@
 
 #challenge{
   border: solid 3px black;
+  margin-right: -15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #problems{
   border: solid 3px black;
+  margin-left: -15px;
 }
 
 #results{
@@ -29,10 +33,12 @@
 }
 
 #results img{
-  width: 300px;
+  width: 500px;
   height: 300px;
+  padding-bottom: 10px;
 }
 
 #sidebar{
   border: solid 3px black;
+  margin-left: -15px;
 }
